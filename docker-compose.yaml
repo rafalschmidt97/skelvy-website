@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+
+  wordpress:
+    container_name: "skelvy-wordpress"
+    depends_on:
+      - db
+    image: wordpress:latest
+    ports:
+      - "8000:80"
+    volumes: ['./:/var/www/html']
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: skelvy
+      WORDPRESS_DB_USER: sa
+      WORDPRESS_DB_PASSWORD: zaq1@WSX
+
+  db:
+    container_name: "skelvy-mysql"
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: skelvy
+      MYSQL_USER: sa
+      MYSQL_PASSWORD: zaq1@WSX
+
+  phpmyadmin:
+    container_name: "skelvy-phpmyadmin"
+    depends_on:
+      - db
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - '8001:80'
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: zaq1@WSX 
+  
+volumes:
+  db_data:
