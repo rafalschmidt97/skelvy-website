@@ -39,9 +39,10 @@ wp-content/blogs.dir/
 wp-content/cache/
 wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
-wp-content/themes/*
+wp-content/themes/index.php
 
-!wp-content/themes/skelvy
+wp-content/themes/skelvy/style.css
+wp-content/themes/skelvy/scripts.js
 
 *~
 *.sw[mnpcod]
