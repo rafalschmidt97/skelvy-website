@@ -1,0 +1,69 @@
+# Copyright (C) 2019 skelvy
+# This file is distributed under the same license as the skelvy package.
+msgid ""
+msgstr ""
+"Project-Id-Version: skelvy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Skelvy <contact.skelvy@gmail.com>\n"
+"Last-Translator: Rafał Schmidt <rafalschmidt97@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://rafalschmidt.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: wp-content/themes/skelvy/functions.php:43
+msgid "Read more"
+msgstr ""
+
+#: wp-content/themes/skelvy/inc/template-tags.php:23
+msgid "by %s"
+msgstr ""
+
+#: wp-content/themes/skelvy/template-parts/404/404.php:4
+msgid "Oops! That page can not be found."
+msgstr ""
+
+#: wp-content/themes/skelvy/template-parts/404/404.php:5
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: wp-content/themes/skelvy/template-parts/archive/archive.php:20
+msgid "Previous"
+msgstr ""
+
+#: wp-content/themes/skelvy/template-parts/archive/archive.php:21
+msgid "Next"
+msgstr ""
+
+#: wp-content/themes/skelvy/template-parts/footer/footer.php:58, wp-content/themes/skelvy/template-parts/navigation/navigation.php:28
+msgid "Language"
+msgstr ""
+
+#: wp-content/themes/skelvy/template-parts/footer/footer.php:78
+msgid "We are using cookies. If you do not adjust your settings we assume that you are fine with this."
+msgstr ""
+
+#: wp-content/themes/skelvy/template-parts/post/content-none.php:2, wp-content/themes/skelvy/template-parts/search/search.php:7
+msgid "Nothing found"
+msgstr ""
+
+#: wp-content/themes/skelvy/template-parts/post/content-none.php:3
+msgid "It seems we can not find what you are looking for."
+msgstr ""
+
+#: wp-content/themes/skelvy/template-parts/search/search.php:5
+msgid "Search results for: %s"
+msgstr ""
+
+#: wp-content/themes/skelvy/template-parts/searchform/searchform.php:8
+msgid "Search..."
+msgstr ""
+
+#: wp-content/themes/skelvy/views/front-page/front-page.php:8
+msgid "We work really hard to deliver the app on time"
+msgstr ""

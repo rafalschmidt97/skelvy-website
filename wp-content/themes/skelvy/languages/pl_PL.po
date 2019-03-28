@@ -1,0 +1,83 @@
+# Copyright (C) 2019 skelvy
+# This file is distributed under the same license as the skelvy package.
+msgid ""
+msgstr ""
+"Project-Id-Version: skelvy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: skelvy <contact.skelvy@gmail.com>\n"
+"Report-Msgid-Bugs-To: https://rafalschmidt.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n"
+"%100<12 || n%100>14) ? 1 : 2);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.1.1\n"
+"Last-Translator: \n"
+"Language: pl\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: wp-content/themes/skelvy/functions.php:43
+msgid "Read more"
+msgstr "Czytaj więcej"
+
+#: wp-content/themes/skelvy/inc/template-tags.php:23
+msgid "by %s"
+msgstr "przez %s"
+
+#: wp-content/themes/skelvy/template-parts/404/404.php:4
+msgid "Oops! That page can not be found."
+msgstr "Ups! Nie można znaleźć tej strony."
+
+#: wp-content/themes/skelvy/template-parts/404/404.php:5
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+"Wygląda na to, że nic nie znaleziono pod tym adresem. Może spróbuj wyszukać?"
+
+#: wp-content/themes/skelvy/template-parts/archive/archive.php:20
+msgid "Previous"
+msgstr "Poprzedni"
+
+#: wp-content/themes/skelvy/template-parts/archive/archive.php:21
+msgid "Next"
+msgstr "Następny"
+
+#: wp-content/themes/skelvy/template-parts/footer/footer.php:58,
+#: wp-content/themes/skelvy/template-parts/navigation/navigation.php:28
+msgid "Language"
+msgstr "Język"
+
+#: wp-content/themes/skelvy/template-parts/footer/footer.php:78
+msgid ""
+"We are using cookies. If you do not adjust your settings we assume that you "
+"are fine with this."
+msgstr ""
+"Używamy plików cookie. Jeśli nie dostosujesz ustawień, zakładamy, że "
+"wszystko w porządku."
+
+#: wp-content/themes/skelvy/template-parts/post/content-none.php:2,
+#: wp-content/themes/skelvy/template-parts/search/search.php:7
+msgid "Nothing found"
+msgstr "Nic nie znaleziono"
+
+#: wp-content/themes/skelvy/template-parts/post/content-none.php:3
+msgid "It seems we can not find what you are looking for."
+msgstr "Wygląda na to, że nie możemy znaleźć tego, czego szukasz."
+
+#: wp-content/themes/skelvy/template-parts/search/search.php:5
+msgid "Search results for: %s"
+msgstr "Wyniki wyszukiwania dla: %s"
+
+#: wp-content/themes/skelvy/template-parts/searchform/searchform.php:8
+msgid "Search..."
+msgstr "Szukaj..."
+
+#: wp-content/themes/skelvy/views/front-page/front-page.php:8
+msgid "We work really hard to deliver the app on time"
+msgstr "Dokładamy wszelkich starań, aby dostarczyć aplikację na czas"

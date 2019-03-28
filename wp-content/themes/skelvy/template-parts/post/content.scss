@@ -1,0 +1,139 @@
+@import '../../assets/styles/bootstrap/variables';
+
+.article {
+  line-height: 1.8;
+  font-size: 18px;
+
+  @include media-breakpoint-down(sm) {
+    line-height: 1.7;
+    font-size: 16px;
+  }
+
+  @include media-breakpoint-down(xs) {
+    text-align: justify;
+  }
+
+  p,
+  ol,
+  ul,
+  blockquote,
+  figure,
+  table,
+  hr,
+  .gallery {
+    margin: 30px 0;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+
+  ul li ul {
+    margin: 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 50px 0 gray('500');
+  }
+
+  blockquote {
+    position: relative;
+    font-style: italic;
+
+    @include media-breakpoint-down(xs) {
+      padding-left: 30px;
+    }
+
+    &::before {
+      height: 100%;
+      width: 4px;
+      content: '';
+      background: theme-color('primary');
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -30px;
+
+      @include media-breakpoint-down(xs) {
+        left: 0;
+      }
+    }
+  }
+
+  code {
+    padding: 2px 6px;
+    border-radius: 4px;
+    background: gray('100');
+    color: theme-color('primary');
+  }
+
+  img.aligncenter {
+    margin: 0 auto;
+    display: block;
+  }
+
+  figure {
+    max-width: 100%;
+
+    figcaption {
+      font-size: 16px;
+      color: gray('500');
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    &.aligncenter {
+      margin: 30px auto;
+    }
+
+    &.alignleft {
+      margin: 30px 30px 30px 0;
+      float: left;
+    }
+
+    &.alignright {
+      margin: 30px 0 30px 30px;
+      float: right;
+    }
+  }
+
+  .gallery {
+    text-align: center;
+  }
+
+  &.excerpt {
+    p {
+      margin: 0;
+    }
+
+    & + .article {
+      margin-top: 3rem;
+      padding-top: 3rem;
+      border-top: 1px solid gray('300');
+    }
+  }
+
+  .page-number {
+    display: inline-block;
+    padding: $btn-padding-y $btn-padding-x;
+    width: 38px;
+    text-align: center;
+    color: $white;
+    border-radius: $btn-border-radius;
+    background: theme-color('primary');
+  }
+
+  a .page-number {
+    background: $white;
+    color: theme-color('primary');
+    border: 1px solid theme-color('primary');
+  }
+}
+
+.pswp__caption__center {
+  max-width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+@import '../../assets/styles/bootstrap/variables';
+
+.front-page {
+  .header {
+    min-height: 650px;
+
+    .timer {
+      font-size: $display4-size;
+      font-weight: 300;
+
+      @include media-breakpoint-down(sm) {
+        font-size: $h1-font-size;
+      }
+    }
+  }
+}

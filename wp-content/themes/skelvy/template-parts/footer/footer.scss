@@ -1,0 +1,13 @@
+@import '../../assets/styles/bootstrap/variables';
+
+.footer {
+  .nav-link {
+    color: theme-color('dark');
+  }
+
+  .copyright {
+    @include media-breakpoint-down(lg) {
+      border-top: 1px solid gray('300');
+    }
+  }
+}

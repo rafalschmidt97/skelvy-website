@@ -1,0 +1,25 @@
+@import 'variables';
+
+button {
+  outline: none !important;
+}
+
+.box-shadow-0 {
+  box-shadow: none !important;
+}
+
+.font-weight-medium {
+  font-weight: 500 !important;
+}
+
+$container-max-widths-blog: (
+  sm: 540px,
+  md: 720px,
+  lg: 710px,
+  xl: 710px,
+);
+
+.container-blog {
+  @include make-container();
+  @include make-container-max-widths($container-max-widths-blog);
+}

@@ -1,0 +1,81 @@
+@import '../../assets/styles/bootstrap/variables';
+@import url('https://fonts.googleapis.com/css?family=Lily+Script+One');
+
+.navbar {
+  border-bottom: 1px solid $white;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  z-index: $zindex-sticky;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  @include media-breakpoint-down(sm) {
+    background: theme-color('primary');
+  }
+
+  .logo {
+    font-family: 'Lily Script One', cursive;
+    color: white;
+    font-size: 30px;
+  }
+
+  .navbar-toggler {
+    border: 0;
+  }
+
+  .navbar-collapse {
+    .nav-link {
+      color: $white;
+      cursor: pointer;
+      border: 1px solid theme-color('light');
+      border-radius: $btn-border-radius;
+      padding: $input-btn-padding-y $input-btn-padding-x;
+      margin-left: 10px;
+
+      @include media-breakpoint-down(sm) {
+        margin-left: 0;
+        margin-bottom: 8px;
+      }
+
+      &.dropdown-toggle::after {
+        margin-bottom: -2px;
+      }
+
+      .fas,
+      .fab {
+        margin-left: 5px;
+        margin-top: -1px;
+      }
+    }
+
+    .dropdown-menu {
+      @include media-breakpoint-down(sm) {
+        position: static;
+        width: 100%;
+        background: transparent;
+        border: none;
+
+        a {
+          color: $white;
+
+          &:hover,
+          &:focus {
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+}
+
+body.customize-support {
+  .navbar {
+    top: 32px;
+
+    @media screen and (max-width: 782px) {
+      top: 46px;
+    }
+  }
+}
