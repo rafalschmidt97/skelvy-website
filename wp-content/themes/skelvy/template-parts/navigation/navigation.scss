@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lily+Script+One');
 
 .navbar {
-  border-bottom: 1px solid $white;
   background: transparent;
   position: absolute;
   top: 0;
@@ -11,14 +10,16 @@
   padding-top: 0;
   padding-bottom: 0;
 
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     background: theme-color('primary');
+    border-bottom: 1px solid white;
   }
 
   .logo {
     font-family: 'Lily Script One', cursive;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
+    margin: 10px 0;
   }
 
   .navbar-toggler {
@@ -29,14 +30,20 @@
     .nav-link {
       color: $white;
       cursor: pointer;
-      border: 1px solid theme-color('light');
-      border-radius: $btn-border-radius;
       padding: $input-btn-padding-y $input-btn-padding-x;
       margin-left: 10px;
 
-      @include media-breakpoint-down(sm) {
+      &:hover {
+        text-decoration: underline;
+      }
+
+      @include media-breakpoint-down(md) {
         margin-left: 0;
         margin-bottom: 8px;
+
+        &:hover {
+          text-decoration: none;
+        }
       }
 
       &.dropdown-toggle::after {
@@ -48,22 +55,12 @@
         margin-left: 5px;
         margin-top: -1px;
       }
-    }
 
-    .dropdown-menu {
-      @include media-breakpoint-down(sm) {
-        position: static;
-        width: 100%;
-        background: transparent;
-        border: none;
+      .fa-text {
+        display: none;
 
-        a {
-          color: $white;
-
-          &:hover,
-          &:focus {
-            background: transparent;
-          }
+        @include media-breakpoint-down(md) {
+          display: inline-block;
         }
       }
     }

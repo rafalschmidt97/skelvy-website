@@ -40,7 +40,7 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: wp-content/themes/skelvy/template-parts/footer/footer.php:58, wp-content/themes/skelvy/template-parts/navigation/navigation.php:28
+#: wp-content/themes/skelvy/template-parts/footer/footer.php:58
 msgid "Language"
 msgstr ""
 
@@ -65,5 +65,5 @@ msgid "Search..."
 msgstr ""
 
 #: wp-content/themes/skelvy/views/front-page/front-page.php:8
-msgid "We work really hard to deliver the app on time"
+msgid "Mobile app for meetings over beer or coffee"
 msgstr ""

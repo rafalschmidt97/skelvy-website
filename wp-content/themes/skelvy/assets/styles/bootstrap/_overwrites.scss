@@ -4,20 +4,20 @@ button {
   outline: none !important;
 }
 
-.box-shadow-0 {
-  box-shadow: none !important;
-}
-
-.font-weight-medium {
-  font-weight: 500 !important;
-}
-
 $container-max-widths-blog: (
   sm: 540px,
   md: 720px,
   lg: 710px,
   xl: 710px,
 );
+
+.font-weight-medium {
+  font-weight: $font-weight-medium !important;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
 
 .container-blog {
   @include make-container();

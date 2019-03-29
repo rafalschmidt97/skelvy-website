@@ -131,6 +131,11 @@
     color: theme-color('primary');
     border: 1px solid theme-color('primary');
   }
+
+  a {
+    font-weight: 600;
+    color: theme-color('primary');
+  }
 }
 
 .pswp__caption__center {

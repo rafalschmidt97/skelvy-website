@@ -53,7 +53,7 @@
         $menuitems = wp_get_nav_menu_items($menu->term_id, array('order' => 'DESC'));
         ?>
 
-        <div class="dropdown dropup d-none d-xl-block">
+        <div class="dropdown dropup pointer d-inline-block">
           <div class="nav-link" id="languages_footer" data-toggle="dropdown">
             <?php _e('Language', 'skelvy'); ?>
           </div>
@@ -67,7 +67,7 @@
         </div>
         <div class="nav-link copyright py-3 py-xl-0">
           &copy; <?php echo date("Y"); ?>
-          <span class="text-primary font-weight-bold">Skelvy</span>
+          <span class="text-primary font-weight-bold">skelvy</span>
         </div>
       </div>
     </div>

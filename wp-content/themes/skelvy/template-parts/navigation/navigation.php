@@ -1,5 +1,5 @@
-<nav id="nav" class="navbar navbar-expand-md speed-3">
-  <div class="container-fluid">
+<nav id="nav" class="navbar navbar-expand-lg speed-3">
+  <div class="container">
     <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">
       <div class="logo">skelvy</div>
     </a>
@@ -16,25 +16,7 @@
           'container' => false,
           'menu_class' => 'navbar-nav ml-auto',
       ));
-
-      $menu_name = 'languages';
-      $locations = get_nav_menu_locations();
-      $menu = wp_get_nav_menu_object($locations[$menu_name]);
-      $menuitems = wp_get_nav_menu_items($menu->term_id, array('order' => 'DESC'));
       ?>
-
-      <div class="dropdown">
-        <div class="nav-link dropdown-toggle" id="languages" data-toggle="dropdown">
-          <?php _e('Language', 'skelvy'); ?>
-        </div>
-        <div class="dropdown-menu dropdown-menu-right">
-          <?php foreach ($menuitems as $item):
-            $link = $item->url;
-            $title = $item->title; ?>
-            <a class="dropdown-item" href="<?php echo $link; ?>"><?php echo $title; ?></a>
-          <?php endforeach; ?>
-        </div>
-      </div>
     </div>
   </div>
 </nav>
