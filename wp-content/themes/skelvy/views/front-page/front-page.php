@@ -19,7 +19,7 @@
           </div>
           <div class="col-lg-5 d-flex text-center text-lg-left">
             <div class="my-auto w-100">
-              <h1 class="header-text display-4"><?php _e('Mobile app for meetings over beer or coffee', 'skelvy'); ?></h1>
+              <h1 class="header-text display-4 mb-0"><?php _e('Mobile app for meetings over beer or coffee', 'skelvy'); ?></h1>
             </div>
           </div>
         </div>
