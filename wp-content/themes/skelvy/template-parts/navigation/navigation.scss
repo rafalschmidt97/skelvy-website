@@ -1,5 +1,4 @@
 @import '../../assets/styles/bootstrap/variables';
-@import url('https://fonts.googleapis.com/css?family=Lily+Script+One');
 
 .navbar {
   background: transparent;
@@ -16,10 +15,13 @@
   }
 
   .logo {
-    font-family: 'Lily Script One', cursive;
-    color: white;
-    font-size: 35px;
-    margin: 10px 0;
+    height: 38px;
+    width: auto;
+    margin: 20px 0;
+
+    @include media-breakpoint-down(md) {
+      margin: 8px 0;
+    }
   }
 
   .navbar-toggler {
