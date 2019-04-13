@@ -41,6 +41,10 @@ wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
 wp-content/themes/index.php
 
+wp-content/themes/twentynineteen/
+wp-content/themes/twentysixteen/
+wp-content/themes/twentyseventeen/
+
 wp-content/themes/skelvy/style.css
 wp-content/themes/skelvy/scripts.js
 
