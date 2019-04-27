@@ -56,8 +56,10 @@ function skelvy_pingback_header() {
 add_action('wp_head', 'skelvy_pingback_header');
 
 function skelvy_scripts() {
-  wp_enqueue_style('skelvy-style', get_stylesheet_uri(), null, '0.0.0');
-  wp_enqueue_script( 'skelvy-scripts', get_theme_file_uri( 'scripts.js' ), null, '0.0.0', true );
+  $version = wp_get_theme()->get( 'Version' );
+
+  wp_enqueue_style('skelvy-style', get_stylesheet_uri(), null, $version);
+  wp_enqueue_script( 'skelvy-scripts', get_theme_file_uri( 'scripts.js' ), null, $version, true);
 
   if (is_customize_preview()) {
     wp_enqueue_style('skelvy-ie9', get_theme_file_uri('/fix/ie9.css'), array('skelvy-style'), '1.0');
