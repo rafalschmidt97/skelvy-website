@@ -79,5 +79,5 @@ msgid "Search..."
 msgstr "Szukaj..."
 
 #: wp-content/themes/skelvy/views/front-page/front-page.php:8
-msgid "Mobile app for meetings over beer or coffee"
-msgstr "Aplikacja do spotykania się przy piwie czy kawie"
+msgid "Mobile app for meetings over your favorite drinks"
+msgstr "Aplikacja do spotykania się przy ulubionych napojach"

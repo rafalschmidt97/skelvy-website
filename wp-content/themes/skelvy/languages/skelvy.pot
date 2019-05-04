@@ -65,5 +65,5 @@ msgid "Search..."
 msgstr ""
 
 #: wp-content/themes/skelvy/views/front-page/front-page.php:8
-msgid "Mobile app for meetings over beer or coffee"
+msgid "Mobile app for meetings over your favorite drinks"
 msgstr ""
