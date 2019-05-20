@@ -4,11 +4,16 @@
   .header {
     min-height: 650px;
 
+    @include media-breakpoint-down(md) {
+      min-height: auto;
+    }
+
     .header-text {
       font-size: 55px;
 
-      @include media-breakpoint-down(sm) {
+      @include media-breakpoint-down(lg) {
         font-size: 40px;
+        font-weight: 300;
       }
     }
   }
