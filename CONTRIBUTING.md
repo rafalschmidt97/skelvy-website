@@ -130,15 +130,15 @@ $ npm i # (or yarn install)
 2. In order to prepare your environment run `prepare.sh` shell script:
 
 ```bash
+# docker-compose up
+# Import the database backup from phpmyadmin (localhost:8001)
 $ sh scripts/prepare.sh // TODO: script is not ready yet
 ```
-
-3. Import the database backup from phpmyadmin (localhost:8001)
 
 ### Commonly used NPM scripts
 
 ```bash
-# build project
+# build project and run live server
 $ npm start
 ```
 
