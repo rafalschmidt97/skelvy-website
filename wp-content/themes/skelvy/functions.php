@@ -38,7 +38,7 @@ function skelvy_excerpt_more($link) {
     return $link;
   }
 
-  $link = sprintf('<div><a href="%1$s" class="btn btn-primary">%2$s</a></div>',
+  $link = sprintf('<div><a href="%1$s" class="btn btn-primary mt-3">%2$s</a></div>',
       esc_url(get_permalink(get_the_ID())),
       __('Read more', 'skelvy')
   );

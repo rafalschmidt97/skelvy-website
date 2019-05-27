@@ -13,38 +13,43 @@
 }
 
 .header {
-  padding-top: 82px;
-  background-position: center;
-  background-size: cover;
   background: theme-color('primary');
+  padding-top: 88px;
 
-  @include media-breakpoint-down(sm) {
-    min-height: 0;
+  @include media-breakpoint-down(md) {
+    padding-top: 64px;
   }
 
   &.image {
     background-position: center;
     background-size: cover;
-    min-height: 100%;
-  }
+    background-repeat: no-repeat;
+    background-color: theme-color('primary');
+    min-height: 600px;
 
-  .display-4 {
     @include media-breakpoint-down(sm) {
-      font-size: $h1-font-size;
+      text-align: center;
+      min-height: 400px;
     }
+  
+    .display-3 {
+      @include media-breakpoint-down(sm) {
+        font-size: $h1-font-size;
+      }
+    }
+    // stylelint-disable
+    .tags-links a {
+      border: 1px solid $white;
+      padding: 0 12px;
+    }
+  
+    .author a,
+    .post-edit-link,
+    .tags-links a {
+      color: $white;
+    }
+    // stylelint-enable
   }
-  // stylelint-disable
-  .tags-links a {
-    border: 1px solid $white;
-    padding: 0 12px;
-  }
-
-  .author a,
-  .post-edit-link,
-  .tags-links a {
-    color: $white;
-  }
-  // stylelint-enable
 }
 
 .post {

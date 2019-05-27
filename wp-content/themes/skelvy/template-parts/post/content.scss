@@ -9,10 +9,6 @@
     font-size: 16px;
   }
 
-  @include media-breakpoint-down(xs) {
-    text-align: justify;
-  }
-
   p,
   ol,
   ul,
@@ -132,7 +128,7 @@
     border: 1px solid theme-color('primary');
   }
 
-  a {
+  a:not(.btn) {
     font-weight: 600;
     color: theme-color('primary');
   }

@@ -1,6 +1,6 @@
 <?php while (have_posts()) : the_post(); ?>
   <?php if ('' !== get_the_post_thumbnail()) : ?>
-    <header class="header text-white image" style="background-image: url('<?php the_post_thumbnail_url('featured'); ?>')"></header>
+    <header class="header image text-white" style="background-image: url('<?php the_post_thumbnail_url('featured'); ?>')"></header>
   <?php else: ?>
     <header class="header text-white text-center d-flex">
       <div class="my-auto w-100 py-5">
