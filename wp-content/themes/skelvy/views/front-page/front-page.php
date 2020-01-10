@@ -4,7 +4,7 @@
       <div class="row h-100 no-gutters">
         <div class="col-xl-5 col-lg-4 d-flex text-center text-lg-left py-5 py-lg-0">
           <div class="my-auto w-100">
-            <h1 class="header-text display-4 mb-4"><?php _e('Mobile app for meetings over your favorite drinks', 'skelvy'); ?></h1>
+            <h1 class="header-text display-4 mb-4"><?php _e('Mobile app for meetings over your favorite activities', 'skelvy'); ?></h1>
             <a href="https://play.google.com/store/apps/details?id=com.skelvy" target="_blank" class="btn btn-lg btn-outline-light mr-2 mb-2">Google Play <i class="fab fa-google-play"></i></a>
             <a href="https://itunes.apple.com/pl/app/skelvy/id1462518070" target="_blank" class="btn btn-lg btn-outline-light mb-2">App Store <i class="fab fa-app-store"></i></a>
           </div>
