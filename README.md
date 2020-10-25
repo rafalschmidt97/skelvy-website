@@ -1,7 +1,18 @@
 This repository is a part of **skelvy** project. It includes website for mobile app.
-Created with php core and wordpress. Crafted with love to new technologies! 
+Created with php core and wordpress.
 
 [![Build Status](https://travis-ci.com/rafalschmidt97/skelvy-website.svg?token=z2Ugw1HzqG3BK6LFW2LT&branch=master)](https://travis-ci.com/rafalschmidt97/skelvy-website)
+
+## Tech stack
+
+PHP + WordPress (own theme created from the ground up), Bootstrap 4 + SCSS, Gulp, MySQL (docker), jQuery, languages with pot files, linting and formatting with Prettier and Stylelint, CI with TravisCI.
+
+## Screenshots
+
+![Homepage](docs/images/website-shadow.png)
+![Post](docs/images/post-shadow.png)
+
+You can find more information within [solution description](docs/solution.md).
 
 ## Contributing guidelines
 
