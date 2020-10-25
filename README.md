@@ -3,6 +3,11 @@ Created with php core and wordpress.
 
 [![Build Status](https://travis-ci.com/rafalschmidt97/skelvy-website.svg?token=z2Ugw1HzqG3BK6LFW2LT&branch=master)](https://travis-ci.com/rafalschmidt97/skelvy-website)
 
+There are other parts of the system which are located within different repositories:
+- [Web API - ASP.NET Core 3](https://github.com/rafalschmidt97/skelvy-api)
+- [Mobile apps (Android and iOS) - Ionic 4 and Angular 8](https://github.com/rafalschmidt97/skelvy-client)
+- [Utilities - additinal tools, graphics](https://github.com/rafalschmidt97/skelvy-utilities)
+
 ## Tech stack
 
 PHP + WordPress (own theme created from the ground up), Bootstrap 4 + SCSS, Gulp, MySQL (docker), jQuery, languages with pot files, linting and formatting with Prettier and Stylelint, CI with TravisCI.
